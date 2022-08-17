@@ -39,7 +39,7 @@ namespace Negocio
                     aux.Anclaje = (string)lector["Anclaje"];
                     aux.UrlImagen = (string)lector["URL_Imagen"];
                     aux.Tipo = new catergoria();
-                    aux.Tipo.Categoria = (string)lector["Tipo"];
+                    aux.Tipo.Tipo = (string)lector["Tipo"];
 
 
                     lista.Add(aux);
